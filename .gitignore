@@ -1,0 +1,75 @@
+## .NET / Visual Studio 기본 무시 파일
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 빌드 결과물
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio 폴더
+.vs/
+
+# MSTest 테스트 결과
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# StyleCop
+StyleCopReport.xml
+
+# Resharper 파일
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet 패키지
+*.nupkg
+# NuGet Symbol 패키지
+*.snupkg
+# 패키지 폴더는 제외
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+
+# Visual Studio 캐시 파일
+# 새로 생성된 프로젝트에 추가되는 파일들 무시
+*.[Cc]ache
+!?*.[Cc]ache/
+
+# Others
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# Visual Studio 임시 파일
+.vscode/
+*.tmp
+*.temp
+
+# Windows 업로더 파일
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# 앱 데이터
+AppData/

@@ -1,0 +1,122 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- 기본 색상 (Ultra Violet 테마) -->
+    <SolidColorBrush x:Key="PrimaryBackgroundBrush" Color="#5F4B8B"/>
+    <!-- 진한 울트라 바이올렛 -->
+    <SolidColorBrush x:Key="SecondaryBackgroundBrush" Color="#7D5AB4"/>
+    <!-- 중간 톤의 울트라 바이올렛 -->
+    <SolidColorBrush x:Key="AccentBrush" Color="#9B69E1"/>
+    <!-- 밝은 울트라 바이올렛 -->
+    <SolidColorBrush x:Key="TextBrush" Color="#FFFFFF"/>
+    <!-- 흰색 텍스트 -->
+    <SolidColorBrush x:Key="SubTextBrush" Color="#E6E6FA"/>
+    <!-- 연한 보라색 부텍스트 (Lavender) -->
+    <SolidColorBrush x:Key="DarkBackgroundBrush" Color="#050F2D"/>
+    <!-- 다크모드 배경색 (진한 남색) -->
+    <SolidColorBrush x:Key="KoreanCurrencyBrush" Color="#B47DFF"/>
+    <!-- 한국 통화용 특별 색상 -->
+
+    <!-- 텍스트 스타일 -->
+    <Style x:Key="HeaderTextStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+    </Style>
+
+    <Style x:Key="SubHeaderTextStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Foreground" Value="{StaticResource SubTextBrush}"/>
+    </Style>
+
+    <Style x:Key="CurrencyCodeStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+    </Style>
+
+    <!-- 한국 통화용 특별 스타일 -->
+    <Style x:Key="KoreanCurrencyCodeStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="22"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+    </Style>
+
+    <Style x:Key="KoreanCurrencyNameStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+    </Style>
+
+    <Style x:Key="KoreanCurrencyRateStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="22"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+    </Style>
+
+    <Style x:Key="CurrencyNameStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="Foreground" Value="{StaticResource SubTextBrush}"/>
+    </Style>
+
+    <Style x:Key="CurrencyRateStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+    </Style>
+
+    <Style x:Key="ChangeRateStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="Foreground" Value="{StaticResource SubTextBrush}"/>
+    </Style>
+
+    <Style x:Key="StatusTextStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="Foreground" Value="{StaticResource SubTextBrush}"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+
+    <!-- 카드 스타일 -->
+    <Style x:Key="CurrencyCardStyle" TargetType="Border">
+        <Setter Property="Background" Value="{StaticResource SecondaryBackgroundBrush}"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="Padding" Value="16"/>
+        <Setter Property="Margin" Value="0,4"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect ShadowDepth="2" Direction="270" Color="Black" Opacity="0.3" BlurRadius="5"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- 한국 통화용 카드 스타일 -->
+    <Style x:Key="KoreanCurrencyCardStyle" TargetType="Border">
+        <Setter Property="Background" Value="{StaticResource KoreanCurrencyBrush}"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="Padding" Value="16"/>
+        <Setter Property="Margin" Value="0,4,0,12"/>
+        <!-- 아래쪽 여백 추가 -->
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect ShadowDepth="3" Direction="270" Color="Black" Opacity="0.4" BlurRadius="8"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- 버튼 스타일 -->
+    <Style x:Key="RefreshButtonStyle" TargetType="Button">
+        <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+
+    <!-- 프로그레스바 스타일 -->
+    <Style x:Key="LoadingProgressBarStyle" TargetType="ProgressBar">
+        <Setter Property="Foreground" Value="{StaticResource AccentBrush}"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+    </Style>
+
+</ResourceDictionary>
