@@ -19,10 +19,10 @@
 
 ## 기술 스택
 
-- **언어/프레임워크**: C#, .NET Framework 4.7.2 (또는 .NET 6.0+)
-- **UI 플랫폼**: Windows Presentation Foundation (WPF)
-- **디자인 패턴**: MVVM (Model-View-ViewModel)
-- **데이터 소스**: Exchange Rate API (https://www.exchangerate-api.com)
+- 언어/프레임워크: C#, .NET Framework 8.0
+- UI 플랫폼: Windows Presentation Foundation (WPF)
+- 디자인 패턴: MVVM (Model-View-ViewModel)
+- 데이터 소스: Exchange Rate API (https://www.exchangerate-api.com)
 
 ## 프로젝트 구조
 ```
