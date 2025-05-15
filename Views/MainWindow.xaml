@@ -24,7 +24,7 @@
         <!-- 헤더 -->
         <Grid Grid.Row="0" Background="{StaticResource PrimaryBackgroundBrush}">
             <StackPanel Margin="16,20">
-                <TextBlock Text="Currency Exchange" 
+                <TextBlock Text="Real-time exchange rate" 
                           Style="{StaticResource HeaderTextStyle}"/>
                 <TextBlock Text="실시간 환율 정보" 
                           Style="{StaticResource SubHeaderTextStyle}"
@@ -35,8 +35,6 @@
         <!-- 통화 목록 -->
         <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
             <StackPanel Margin="8">
-                <!-- 1. 한국 통화(KRW) 섹션 -->
-               
 
                 <!-- 2. 일반 통화 목록 -->
                 <ItemsControl ItemsSource="{Binding Currencies}">

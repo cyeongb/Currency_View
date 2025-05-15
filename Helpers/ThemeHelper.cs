@@ -56,7 +56,6 @@ namespace CurrencyExchangeApp.Helpers
             resources["DarkBackgroundBrush"] = DarkBackgroundBrush;
             resources["KoreanCurrencyBrush"] = KoreanCurrencyBrush;
 
-            // 기타 테마 설정들...
         }
     }
 }

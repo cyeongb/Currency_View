@@ -46,7 +46,7 @@ namespace CurrencyExchangeApp.Services
         // API 요청 제한 관련 속성
         private static int _dailyRequestCount = 0;
         private static DateTime _lastRequestReset = DateTime.MinValue;
-        private const int MaxDailyRequests = 1400; // 안전 마진으로 1500에서 100 적게 설정
+        private const int MaxDailyRequests = 1400; // 원래 1500 인데 안전빵으로..
 
         public CurrencyApiService()
         {
@@ -159,7 +159,7 @@ namespace CurrencyExchangeApp.Services
                 //    LastUpdate = DateTime.Now
                 //});
 
-                // 상위 통화 추출 (count-1은 USD를 이미 추가했으므로)
+                // 통화 추출
                 foreach (var code in _topCurrencyCodes.Take(Math.Min(count, _topCurrencyCodes.Length)))
                 {
                     if (conversionRates.TryGetProperty(code, out var rateElement))

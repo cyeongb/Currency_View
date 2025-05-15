@@ -25,7 +25,7 @@ namespace CurrencyExchangeApp.Models
             }
         }
 
-        // 통화별 디스플레이 이름 반환 (나라 이모티콘은 앱에서 나중에 추가)
+        // 통화별 디스플레이 이름 반환
         public string DisplayName => $"{Code} - {Name}";
 
         // 변동률 방향 확인 속성
