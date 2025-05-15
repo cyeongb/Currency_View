@@ -1,6 +1,7 @@
 # Currency Exchange App
 
 **실시간 환율 정보를 표시하는 WPF 애플리케이션**
+![image](https://github.com/user-attachments/assets/49bf4f82-db21-4d36-8329-38a465e6e3fb)
 
 ## 프로젝트 소개
 
