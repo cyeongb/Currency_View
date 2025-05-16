@@ -63,7 +63,7 @@ CurrencyExchangeApp/
 │   └── Converters.cs         # 값 변환기 구현
 │
 └── Resources/
-    ├── Styles.xaml           # 공통 스타일 (디즈니 플러스 스타일 다크 테마)
+    ├── Styles.xaml           # 공통 스타일 (다크 테마)
     └── Converters.xaml       # 값 변환기 (변동률 → 색상 등)
 ```
 
