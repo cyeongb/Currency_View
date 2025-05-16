@@ -33,6 +33,14 @@ https://www.notion.so/cyeongb/6-C-NET-Project-1f4aa4605a0b802583f8cb858cc974a5?p
 - 디자인 패턴: MVVM (Model-View-ViewModel)
 - 데이터 소스: Exchange Rate API (https://www.exchangerate-api.com)
 
+## 📻 API 정보
+- ExchangeRate-API
+- API 소스: https://www.exchangerate-api.com/
+- 무료 플랜: 일일 요청 한도 1,500회
+- API 키 관리 및 일일 요청 제한 기능 포함
+- 200개국 161가지 주요 통화 지원(미국 달러를 기준)
+
+
 ## 🖼️ 프로젝트 구조
 ```
 CurrencyExchangeApp/
@@ -67,10 +75,3 @@ CurrencyExchangeApp/
     └── Converters.xaml       # 값 변환기 (변동률 → 색상 등)
 ```
 
-
-## API 정보
-- ExchangeRate-API
-- API 소스: https://www.exchangerate-api.com/
-- 무료 플랜: 일일 요청 한도 1,500회
-- API 키 관리 및 일일 요청 제한 기능 포함
-- 200개국 161가지 주요 통화 지원(미국 달러를 기준)
