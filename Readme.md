@@ -1,4 +1,4 @@
-# Currency Exchange App
+# 💸💱Currency Exchange App
 
 **실시간 환율 정보를 표시하는 WPF 애플리케이션**
 
@@ -11,13 +11,13 @@ https://www.notion.so/cyeongb/6-C-NET-Project-1f4aa4605a0b802583f8cb858cc974a5?p
 
 
 
-## 프로젝트 소개
+## 🔥 프로젝트 소개
 
 - 이 프로젝트는 상위 12개국 + 한국 통화의 실시간 환율 정보를 표시하는 Windows 데스크톱 애플리케이션. 
 - 다크 테마 UI를 사용하며, 환율 변동률을 시각적으로 확인 가능함. 
 - 오프라인 지원을 위한 데이터 캐싱과 하루에 한 번 자동 업데이트 기능을 제공함.
 
-## 주요 기능
+## 🧩 주요 기능
 
 - 13개국(한국 포함) 통화의 실시간 환율 정보 표시
 - 다크 테마 UI
@@ -26,14 +26,14 @@ https://www.notion.so/cyeongb/6-C-NET-Project-1f4aa4605a0b802583f8cb858cc974a5?p
 - 오프라인 지원을 위한 데이터 캐싱
 - 최대 요청(일 1,500회)를 초과하지 않게 제한.
 
-## 기술 스택
+## ✨ 기술 스택
 
 - 언어/프레임워크: C#, .NET Framework 8.0
 - UI 플랫폼: Windows Presentation Foundation (WPF)
 - 디자인 패턴: MVVM (Model-View-ViewModel)
 - 데이터 소스: Exchange Rate API (https://www.exchangerate-api.com)
 
-## 프로젝트 구조
+## 🖼️ 프로젝트 구조
 ```
 CurrencyExchangeApp/
 │
@@ -69,9 +69,8 @@ CurrencyExchangeApp/
 
 
 ## API 정보
-
 - ExchangeRate-API
 - API 소스: https://www.exchangerate-api.com/
 - 무료 플랜: 일일 요청 한도 1,500회
 - API 키 관리 및 일일 요청 제한 기능 포함
-- 13개 주요 통화 지원(미국 달러 기준)
+- 200개국 161가지 주요 통화 지원(미국 달러를 기준)
