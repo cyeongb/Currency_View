@@ -1,6 +1,8 @@
 # 💸💱Currency Exchange App
 
-**실시간 환율 정보를 표시하는 WPF 애플리케이션**
+**WPF application that displays real-time exchange rate information**
+
+(실시간 환율 정보를 표시하는 WPF 애플리케이션)
 
 https://www.notion.so/cyeongb/6-C-NET-Project-1f4aa4605a0b802583f8cb858cc974a5?pvs=4
 
@@ -11,29 +13,29 @@ https://www.notion.so/cyeongb/6-C-NET-Project-1f4aa4605a0b802583f8cb858cc974a5?p
 
 
 
-## 🔥 프로젝트 소개
+## 🔥 Introduce
 
-- 이 프로젝트는 상위 12개국 + 한국 통화의 실시간 환율 정보를 표시하는 Windows 데스크톱 애플리케이션. 
-- 다크 테마 UI를 사용하며, 환율 변동률을 시각적으로 확인 가능함. 
-- 오프라인 지원을 위한 데이터 캐싱과 하루에 한 번 자동 업데이트 기능을 제공함.
+- This project is a Windows desktop application that displays real-time exchange rate information for the top 12 countries     plus South Korean currency. 
+-It uses a dark theme UI, enabling visual tracking of exchange rate fluctuations.
+- The application also provides data caching for offline support and an automatic daily update function.
 
-## 🧩 주요 기능
+## 🧩 Main Function
 
-- 13개국(한국 포함) 통화의 실시간 환율 정보 표시
-- 다크 테마 UI
-- 통화별 정보 간단 표시 (코드, 이름, 환율)
-- 환율 변동률 표시 (상승/하락 시각적 표현)
-- 오프라인 지원을 위한 데이터 캐싱
-- 최대 요청(일 1,500회)를 초과하지 않게 제한.
+- Real-time exchange rate display for 13 currencies (including South Korea)
+- Dark theme UI
+- Simple display of currency details (code, name, exchange rate)
+- Display of exchange rate fluctuation (visual representation of rise/fall)
+- Data caching for offline support
+- Restrict requests to a maximum of 1,500 per day.
 
-## ✨ 기술 스택
+## ✨ Skill stack
 
-- 언어/프레임워크: C#, .NET Framework 8.0
-- UI 플랫폼: Windows Presentation Foundation (WPF)
-- 디자인 패턴: MVVM (Model-View-ViewModel)
-- 데이터 소스: Exchange Rate API (https://www.exchangerate-api.com)
+- Language/Framework : C#, .NET Framework 8.0
+- UI platform: Windows Presentation Foundation (WPF)
+- Pattern: MVVM (Model-View-ViewModel)
+- Data source: Exchange Rate API (https://www.exchangerate-api.com)
 
-## 📻 API 정보
+## 📻 API info
 - ExchangeRate-API
 - API 소스: https://www.exchangerate-api.com/
 - 무료 플랜: 일일 요청 한도 1,500회
@@ -41,7 +43,7 @@ https://www.notion.so/cyeongb/6-C-NET-Project-1f4aa4605a0b802583f8cb858cc974a5?p
 - 200개국 161가지 주요 통화 지원(미국 달러를 기준)
 
 
-## 🖼️ 프로젝트 구조
+## 🖼️ Project struct
 ```
 CurrencyExchangeApp/
 │
